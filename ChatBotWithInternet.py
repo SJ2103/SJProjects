@@ -6,7 +6,7 @@ from groq import Groq
 # ========= 1. CONFIG =========
 
 # 🔴 PUT YOUR REAL GROQ KEY HERE (same one that worked before)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "***"
 
 client = Groq(api_key=GROQ_API_KEY)
 
@@ -279,3 +279,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
